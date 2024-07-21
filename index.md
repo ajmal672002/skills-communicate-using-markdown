@@ -6,3 +6,8 @@
 # <h6> hi
 Added header
 alt-text![Image of  Terracottocat](https://octodex.github.com/images/Terracottocat_Group.png)
+```cpp
+bool getBit(int num, int i) {
+    return ((num & (1<<i)) != 0);
+}
+```
